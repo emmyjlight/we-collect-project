@@ -1,0 +1,176 @@
+body{
+    border: 3px solid;
+    height: 3150px;
+    width: 900px;
+}
+/* the top heading */
+.top{
+    border: 3px solid;
+     border-bottom-left-radius:30px ;
+    border-bottom-right-radius:30px ;
+    width: 600px;
+    background-color: gray;
+    /* display: flex; */
+     height: 100px;
+     margin: auto;
+}
+.logo{
+    margin: 5px;
+        display: flex;
+}
+.we{
+    margin:6px;
+    font-size: 20px;
+    color: crimson;
+}
+.more{
+    margin-left: 350px;
+    font-size: 20px;
+}
+/* after the top heading */
+.become{
+    border: 3px solid;
+    margin: 40px;
+}
+.H2{
+        color: green;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+}
+
+/* about wecollect */
+.about{
+        border: 3px solid;
+        height: 650px;
+        width: 800px;
+        margin: 70px;
+        display: flex;
+}
+/* set2 div */
+.set2{
+border: 3px solid;
+    margin: 10px;
+    height: 600px;
+    width: 350px
+}
+        
+ 
+.pp{
+     margin: 20px;
+}
+.pp2{
+     margin: 1px;
+    display: flex;
+
+        /* flex-direction: row; */
+      
+}
+.pp3{
+    margin: 10px;
+        
+}
+.set3{
+        border: 3px solid;
+        border-radius: 10px;
+        margin:10px;
+        /* height:450px;
+        width: 400px; */
+        height: 600px;
+            width: 350px;
+        background-color: darkslateblue;
+        /* background:url(image/unsplash_P4yr0fvEfsc.png); */
+        /* background-repeat: no-repeat; */
+        /* background-position: -10px; */
+}
+.set3-4{
+    background-color: white;
+        border-radius: 10px;
+    margin: -5px;
+    height: 550px;
+    width: 290px;
+}
+.insideset3{
+    margin: -10px;
+    height: 560px;
+        width: 300px;
+ }
+ /* let paragraph */
+ h1{
+    margin: 60px;
+    color: rebeccapurple;
+    font-size: 30px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ /* we are having the green good mark svg on top */
+ .good{
+            border: 3px solid;
+            margin: 10px;
+            height: 600px;
+            width: 350px;
+            padding: 50px;
+            
+ }
+  
+ .ig{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+         
+ 
+    
+ }
+ .your{
+    display: flex;
+    flex-direction: column;
+     padding: 30px;
+    text-align: center;
+ }
+
+ .go{
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+ }
+
+ .home{
+        color: white;
+        text-decoration: none;
+ }
+ .home:hover{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+ }
+
+ /* we have the coming soon part */
+ .soon{
+    margin: 20px;
+    font-size: 17px;
+  }
+
+  /* we have the big blue part */
+  .blue{
+    height: 200px;
+    width: 95%;
+    background-color: blue;
+    margin: auto;
+    border-radius: 20px;
+    color: white;
+    /* display: flex; */
+        justify-content: center;
+  }
+
+  .oc{
+    border: 5px solid black;
+display: flex;
+/* flex-direction: row; */
+      padding: 40px;
+  }
+  .ino{
+    margin: 10px;
+  }
+  /* .email{
+    border-radius: 20px;
+  } */

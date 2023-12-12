@@ -1,0 +1,9 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Logo">
+<ellipse id="Ellipse 1" cx="14.8295" cy="3.40909" rx="3.57954" ry="3.40909" fill="#0E0E0E"/>
+<circle id="Ellipse 2" cx="3.57954" cy="14.4881" r="3.57954" fill="#0E0E0E"/>
+<circle id="Ellipse 3" cx="26.4206" cy="14.4881" r="3.57954" fill="#481ACA"/>
+<ellipse id="Ellipse 4" cx="14.8295" cy="25.9091" rx="3.57954" ry="3.40909" fill="#56509B"/>
+<path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M14.9998 13.1887C16.0149 13.1887 16.8378 12.3844 16.8378 11.3924C16.8378 11.392 16.8378 11.3917 16.8378 11.3914H18.3439V17.9273H11.656V11.3914H13.1617C13.1617 11.3917 13.1617 11.392 13.1617 11.3924C13.1617 12.3844 13.9846 13.1887 14.9998 13.1887Z" fill="#C02727"/>
+</g>
+</svg>
