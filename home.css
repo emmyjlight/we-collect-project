@@ -1,22 +1,33 @@
+/* i use the body to mark different part of the work */
+ 
 body{
-    border: 3px solid;
-    height: 3150px;
-    width: 900px;
+    padding: 3px;
+    /* border: 3px solid;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
 }
-/* the top heading */
-.top{
+/* the top heading  */
+/* i didn't later use this top heading that i have already design */
+
+/* .top{
     border: 3px solid;
      border-bottom-left-radius:30px ;
     border-bottom-right-radius:30px ;
-    width: 600px;
-    background-color: gray;
-    /* display: flex; */
+    width: 90%;
+    background-color: gray; 
+    display: flex;
      height: 100px;
      margin: auto;
-}
+} */
+
 .logo{
     margin: 5px;
         display: flex;
+
 }
 .we{
     margin:6px;
@@ -24,34 +35,37 @@ body{
     color: crimson;
 }
 .more{
-    margin-left: 350px;
+    margin-left: 950px;
     font-size: 20px;
-}
+   text-align: right;
+   display: flex;
+  }
 /* after the top heading */
 .become{
-    border: 3px solid;
-    margin: 40px;
+    /* border: 3px solid; */
+    margin: 0px;
 }
 .H2{
         color: green;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 30px;
+        font-size: 60px;
 }
 
 /* about wecollect */
 .about{
-        border: 3px solid;
+        /* border: 3px solid; */
         height: 650px;
-        width: 800px;
-        margin: 70px;
+        /* width: 90%; */
+        margin: 0px;
         display: flex;
+        font-size: 25px;
 }
 /* set2 div */
 .set2{
-border: 3px solid;
+/* border: 3px solid; */
     margin: 10px;
     height: 600px;
-    width: 350px
+    /* width: 350px */
 }
         
  
@@ -70,7 +84,7 @@ border: 3px solid;
         
 }
 .set3{
-        border: 3px solid;
+        /* border: 3px solid; */
         border-radius: 10px;
         margin:10px;
         /* height:450px;
@@ -96,20 +110,31 @@ border: 3px solid;
  }
  /* let paragraph */
  h1{
-    margin: 60px;
+    margin: 0px;
     color: rebeccapurple;
-    font-size: 30px;
+    font-size: 60px;
     font-family:  Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .eli {
+     /* border: 3px solid; */
+     height: 410px;
+     /* width: 90%; */
+     margin: 0px;
+     display: flex;
+     font-size: 25px;
  }
 
  /* we are having the green good mark svg on top */
  .good{
-            border: 3px solid;
+            /* border: 3px solid; */
             margin: 10px;
             height: 600px;
-            width: 350px;
+            /* width: 350px; */
             padding: 50px;
-            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+              
  }
   
  .ig{
@@ -132,6 +157,10 @@ border: 3px solid;
     text-align: center;
     padding: 20px;
     border-radius: 30px;
+    width: 250px;
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
  }
 
  .home{
@@ -151,26 +180,143 @@ border: 3px solid;
   }
 
   /* we have the big blue part */
-  .blue{
-    height: 200px;
-    width: 95%;
-    background-color: blue;
-    margin: auto;
-    border-radius: 20px;
-    color: white;
-    /* display: flex; */
-        justify-content: center;
+   
+ 
+
+  /* from figma */
+
+  /* .rectangle-1,
+  .rectangle-1 * {
+      box-sizing: border-box;
+  } */
+
+  /* .rectangle-1 {
+      background: #1c3151;
+      border-radius: 25px;
+      width: 759px;
+      height: 169px;
+      position: relative;
+      margin: 0;
+  } */
+
+  .stay-connected-be-first-to-know,
+  .stay-connected-be-first-to-know * {
+      box-sizing: border-box;
   }
 
-  .oc{
-    border: 5px solid black;
-display: flex;
-/* flex-direction: row; */
-      padding: 40px;
+  .stay-connected-be-first-to-know {
+      color: #ffffff;
+      text-align: center;
+      font-family: 'Inter-Regular', sans-serif;
+      font-size: 15px;
+      line-height: 122.23%;
+      font-weight: 400;
+      position: relative;
+      width: 192px;
+      height: 72px;
   }
-  .ino{
+
+
+  
+
+  .section-1 {
+       
+      position: relative;
+  }
+
+  .rectangle-1 {
+      background: #1c3151;
+      border-radius: 25px;
+      width: 95%;
+      height: 200px;
+      position: absolute;
+      left: 27px;
+      top: 37px;
+  }
+ 
+
+  .submit-button {
+       
+      position: absolute;
+      left: 880px;
+      top: 118px;
+       
+  }
+
+  .btn{
+    background: #318c9f;
+
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+    width: 390px;
+    height: 35px;
+    cursor: pointer;
+   }
+ 
+
+  .stay-connected-be-first-to-know {
+      color: #ffffff;
+      text-align: center;
+      font-family: 'Inter-Regular', sans-serif;
+      font-size: 15px;
+      line-height: 122.23%;
+      font-weight: 400;
+      position: absolute;
+      left: 3px;
+      top: 112px;
+      width: 192px;
+      height: 72px;
+  }
+
+  .placeholder-emmy-gmail-com {
+       text-align: left;
+      font-family: 'Inter-Regular', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      position: absolute;
+      left: 270px;
+      top: 112px;
+      width: 692px;
+      height: 233px;
+  }
+
+   
+
+  .ema{
+    background: #d9d9d9;
+        border-radius: 9px;
+        width:  1000px;
+        height: 42px;
+         
+         left: 717px;
+        top: 112px;
+          
+  }
+ /* footer end */
+  .footer{
+    
+    display: flex;
     margin: 10px;
   }
-  /* .email{
-    border-radius: 20px;
-  } */
+   
+  .right{
+    margin-top: 20px;
+   margin-left:14px;
+   color: gray;
+   font-size: 20px;
+  }
+   /* social icon */
+  .icon{
+    margin-left: auto;
+    margin-top:20px ;
+    font-size: 20px;
+  }
+  
+  .a{
+    color: black;
+  }
+  .a:hover{
+    color: blue;
+    font-size: 30px;
+  }
